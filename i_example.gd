@@ -1,3 +1,5 @@
+# You should add every interface like this to the
+# exported interfaces Array in interface_checker.tscn
 class_name IExample extends Interface
 
 

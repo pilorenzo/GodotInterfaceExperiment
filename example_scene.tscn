@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxnymb225bjpq"]
+
+[ext_resource type="Texture2D" uid="uid://ddb175u05b0r8" path="res://icon.svg" id="1_0b7fq"]
+[ext_resource type="Script" path="res://node_example.gd" id="2_a31bu"]
+
+[node name="ExampleScene" type="Sprite2D" groups=["IExample"]]
+scale = Vector2(4, 4)
+texture = ExtResource("1_0b7fq")
+script = ExtResource("2_a31bu")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Trial" type="Node2D" parent="Node2D" groups=["IExample"]]
+script = ExtResource("2_a31bu")

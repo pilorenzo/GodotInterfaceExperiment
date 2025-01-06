@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp2ntnsk6gqrs"]
+
+[ext_resource type="Script" path="res://interface_checker/interface_checker.gd" id="1_t5c5j"]
+[ext_resource type="Script" path="res://i_example.gd" id="2_jy6sl"]
+
+[node name="InterfaceChecker" type="Node"]
+script = ExtResource("1_t5c5j")
+interfaces = Array[Script]([ExtResource("2_jy6sl")])

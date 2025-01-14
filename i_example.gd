@@ -7,7 +7,7 @@ func method_with_arg(_args: float) -> String:
     return ""
 
 func some_method() -> Sprite2D:
-    return Sprite2D.new()
+    return null
 
 func absent_method() -> void:
     pass
